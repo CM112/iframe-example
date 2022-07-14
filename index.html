@@ -8,9 +8,11 @@
  <script>
 console.log("inside js");
 var synth = window.speechSynthesis;
- 
-synth.speak(new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.'));
-synth.speak(new SpeechSynthesisUtterance('How about we say this now? '));
+	 synth.speak(new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.1'));
+	 synth.speak(new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.2'));
+ synth.speak(new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.3'));
+synth.speak(new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.4'));
+synth.speak(new SpeechSynthesisUtterance('How about we say this now? 5'));
 synth.cancel();
 synth.speak(new SpeechSynthesisUtterance('We should say another sentence too, just to be on the safe side.'));
 
